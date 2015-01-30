@@ -2,114 +2,167 @@
   <group name="Hydropower" icon="presets/apexcollege.png">
     <item name="River" icon="presets/empty.png" type="way">
       <combo key="waterway" text="River" values="river, stream"/>
-      <key key="source" value="niti_hydropower_survey"/>     
+      <text key="name" text="Name"/>
+	  <text key="name:hydropower_project" text="Name of the project"/>
+	  <text key="url:photo" text="Photo Url"/>
+	  <key key="source" value="niti_hydropower_survey"/>     
 	</item>
     <item name="Canal" icon="" type="way">
       <key key="waterway" value="canal"/>
       <key key="service" value="water_power"/>
-      <key key="source" value="niti_hydropower_survey"/>
+	  <text key="name:hydropower_project" text="Name of the project"/>
+		<text key="url:photo" text="Photo Url"/>
+	 <key key="source" value="niti_hydropower_survey"/>
     </item>
     <item name="Dam/Weir" icon="" type="way">
       <combo key="waterway" text="Dam/Weir/Lock gate" values="dam, weir, lock_gate"/>
+		<text key="name:hydropower_project" text="Name of the project"/>
+		<text key="url:photo" text="Photo Url"/>
 		<key key="source" value="niti_hydropower_survey"/>
     </item>
     <item name="Reservoir" icon="presets/empty.png" type="node,closedway">
       <key key="landuse" value="reservoir"/>
+	  <text key="name:hydropower_project" text="Name of the project"/>
+		<text key="url:photo" text="Photo Url"/>
 		<key key="source" value="niti_hydropower_survey"/>    
 	</item>
     <item name="Power house" icon="presets/empty.png" type="node,closedway">
       <key key="power" value="plant"/>
+	  <text key="name:hydropower_project" text="Name of the project"/>
+		<text key="url:photo" text="Photo Url"/>
 		<key key="source" value="niti_hydropower_survey"/>
     </item>
     <item name="Generator/Turbine" icon="presets/empty.png" type="node,closedway">
       <key key="power" value="generator"/>
       <key key="generator:source" value="hydro"/>
-      <combo key="hydro" text="Turbine type" values="water-storage, water-pumped-storage"/>	  
-	  	<key key="source" value="niti_hydropower_survey"/>
+      <combo key="hydro" text="Turbine type" values="water-storage, water-pumped-storage"/>	
+		<text key="name:hydropower_project" text="Name of the project"/>
+	  	<text key="url:photo" text="Photo Url"/>
+		<key key="source" value="niti_hydropower_survey"/>
     </item>
     <item name="Tailrace" icon="presets/empty.png" type="way">
       <key key="water" value="tailrace"/>
-      <key key="source" value="niti_hydropower_survey"/>
+	  <text key="name:hydropower_project" text="Name of the project"/>
+      <text key="url:photo" text="Photo Url"/>
+	  <key key="source" value="niti_hydropower_survey"/>
     </item>
     <item name="Transmission line" icon="presets/empty.png" type="way">
       <combo key="power" text="Transmission line" values="line, minor_line, pole"/>
-      <key key="source" value="niti_hydropower_survey"/>
+	  <text key="name:hydropower_project" text="Name of the project"/>
+		<text key="url:photo" text="Photo Url"/>
+	 <key key="source" value="niti_hydropower_survey"/>
     </item>
     <item name="Penstock" icon="presets/empty.png" type="way">
       <key key="man_made" value="pipeline"/>
       <key key="usage" value="penstock"/>
-      <key key="source" value="niti_hydropower_survey"/>
+	  <text key="name:hydropower_project" text="Name of the project"/>
+      <text key="url:photo" text="Photo Url"/>
+	  <key key="source" value="niti_hydropower_survey"/>
     </item>
     <item name="Transformer substation" icon="presets/empty.png" type="closedway">
       <key key="power" value="substation"/>
-      <key key="source" value="niti_hydropower_survey"/>
+	  <text key="name:hydropower_project" text="Name of the project"/>
+      <text key="url:photo" text="Photo Url"/>
+	  <key key="source" value="niti_hydropower_survey"/>
     </item>
     <item name="Transformer" icon="presets/empty.png" type="node">
       <key key="power" value="transformer"/>
-        <key key="source" value="niti_hydropower_survey"/>
+	  <text key="name:hydropower_project" text="Name of the project"/>
+        <text key="url:photo" text="Photo Url"/>
+		<key key="source" value="niti_hydropower_survey"/>
     </item>
     <item name="Trash rack" icon="presets/empty.png" type="way">
       <key key="trash_rack" value="yes"/>
-      <key key="source" value="niti_hydropower_survey"/>
+	  <text key="name:hydropower_project" text="Name of the project"/>
+      <text key="url:photo" text="Photo Url"/>
+	  <key key="source" value="niti_hydropower_survey"/>
     </item>
     <item name="Water intake" icon="presets/empty.png" type="node,closedway">
       <key key="water_intake" value="yes"/>
-      <key key="source" value="niti_hydropower_survey"/>
+	  <text key="name:hydropower_project" text="Name of the project"/>
+      <text key="url:photo" text="Photo Url"/>
+	  <key key="source" value="niti_hydropower_survey"/>
     </item>
     <item name="Tunnel" icon="presets/empty.png" type="way">
       <key key="tunnel" value="yes"/>
-      <key key="source" value="niti_hydropower_survey"/>
+	  <text key="name:hydropower_project" text="Name of the project"/>
+      <text key="url:photo" text="Photo Url"/>
+	  <key key="source" value="niti_hydropower_survey"/>
     </item>
     <item name="Tunnel inlet" icon="presets/empty.png" type="node">
       <key key="tunnel_inlet" value="yes"/>
-      <key key="source" value="niti_hydropower_survey"/>
+	  <text key="name:hydropower_project" text="Name of the project"/>
+      <text key="url:photo" text="Photo Url"/>
+	  <key key="source" value="niti_hydropower_survey"/>
     </item>
     <item name="Forebay" icon="presets/empty.png" type="node,closedway">
       <key key="landuse" value="forebay"/>
-      <key key="source" value="niti_hydropower_survey"/>
+	  <text key="name:hydropower_project" text="Name of the project"/>
+		<text key="url:photo" text="Photo Url"/>
+	 <key key="source" value="niti_hydropower_survey"/>
     </item>
     <item name="Bridge" icon="presets/empty.png" type="way">
       <key key="bridge" value="yes"/>
-      <key key="source" value="niti_hydropower_survey"/>
+	  <text key="name:hydropower_project" text="Name of the project"/>
+		<text key="url:photo" text="Photo Url"/>
+	 <key key="source" value="niti_hydropower_survey"/>
     </item>
     <item name="Flood area" icon="presets/empty.png" type="closedway">
       <key key="landuse" value="basin"/>
-      <key key="source" value="niti_hydropower_survey"/>
+	  <text key="name:hydropower_project" text="Name of the project"/>
+      <text key="url:photo" text="Photo Url"/>
+	  <key key="source" value="niti_hydropower_survey"/>
     </item>
     <item name="Driving system" icon="presets/empty.png" type="node,closedway,way">
       <text key="driving_system" text="Driving system"/>
-      <key key="source" value="niti_hydropower_survey"/>
+	  <text key="name:hydropower_project" text="Name of the project"/>
+      <text key="url:photo" text="Photo Url"/>
+	  <key key="source" value="niti_hydropower_survey"/>
     </item>
     <item name="Headrace" icon="presets/empty.png" type="node,way,closedway">
       <key key="headrace" value="yes"/>
-      <key key="source" value="niti_hydropower_survey"/>
+	  <text key="name:hydropower_project" text="Name of the project"/>
+      <text key="url:photo" text="Photo Url"/>
+	  <key key="source" value="niti_hydropower_survey"/>
     </item>
     <item name="Settling Basin" icon="presets/empty.png" type="node,closedway">
       <key key="landuse" value="reservoir"/>
       <key key="reservoir" value="sedimentation_chamber"/>
-	  <key key="source" value="niti_hydropower_survey"/>
+	  <text key="name:hydropower_project" text="Name of the project"/>
+		<text key="url:photo" text="Photo Url"/>
+	 <key key="source" value="niti_hydropower_survey"/>
     </item>
     <item name="Spillway" icon="presets/empty.png" type="way">
 	<key key="spillway" value="yes"/>
-      <key key="source" value="niti_hydropower_survey"/>
+	<text key="name:hydropower_project" text="Name of the project"/>
+      <text key="url:photo" text="Photo Url"/>
+	  <key key="source" value="niti_hydropower_survey"/>
     </item>
     <item name="Road Crossing" icon="presets/empty.png" type="way">
       <key key="highway" value="crossing"/>
-      <key key="source" value="niti_hydropower_survey"/>
+	  <text key="name:hydropower_project" text="Name of the project"/>
+      <text key="url:photo" text="Photo Url"/>
+	  <key key="source" value="niti_hydropower_survey"/>
     </item>
     <item name="Outflow" icon="presets/empty.png" type="node">
       <key key="water_outflow" value="yes"/>
-      <key key="source" value="niti_hydropower_survey"/>
+	  <text key="name:hydropower_project" text="Name of the project"/>
+      <text key="url:photo" text="Photo Url"/>
+	  <key key="source" value="niti_hydropower_survey"/>
     </item>
     <item name="Control gate" icon="presets/empty.png" type="node,way">
       <key key="barrier" value="lift_gate"/>
-      <key key="source" value="niti_hydropower_survey"/>
+	  <text key="name:hydropower_project" text="Name of the project"/>
+      <text key="url:photo" text="Photo Url"/>
+	  <key key="source" value="niti_hydropower_survey"/>
     </item>
     <item name="Surge tank" icon="presets/empty.png" type="closedway">
       <key key="man_made" value="pipeline"/>
       <key key="type" value="water"/>
+	  <text key="name:hydropower_project" text="Name of the project"/>
 	  <key key="water" value="surge_tank"/>
-      <key key="source" value="niti_hydropower_survey"/>
+	<text key="url:photo" text="Photo Url"/>     
+	 <key key="source" value="niti_hydropower_survey"/>
     </item>
   </group>
 </presets>
