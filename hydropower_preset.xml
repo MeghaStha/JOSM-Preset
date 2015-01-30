@@ -2,30 +2,30 @@
   <group name="Hydropower" icon="presets/apexcollege.png">
     <item name="River" icon="presets/empty.png" type="way">
       <combo key="waterway" text="River" values="river, stream"/>
-      <key key="source" value="kll_hyropower"/>     
+      <key key="source" value="niti_hydropower_survey"/>     
 	</item>
     <item name="Canal" icon="" type="way">
       <key key="waterway" value="canal"/>
       <key key="service" value="water_power"/>
-      <key key="source" value="kll_hyropower"/>
+      <key key="source" value="niti_hydropower_survey"/>
     </item>
     <item name="Dam/Weir" icon="" type="way">
       <combo key="waterway" text="Dam/Weir/Lock gate" values="dam, weir, lock_gate"/>
-		<key key="source" value="kll_hyropower"/>
+		<key key="source" value="niti_hydropower_survey"/>
     </item>
     <item name="Reservoir" icon="presets/empty.png" type="node,closedway">
       <key key="landuse" value="reservoir"/>
-		<key key="source" value="kll_hyropower"/>    
+		<key key="source" value="niti_hydropower_survey"/>    
 	</item>
     <item name="Power house" icon="presets/empty.png" type="node,closedway">
       <key key="power" value="plant"/>
-		<key key="source" value="kll_hyropower"/>
+		<key key="source" value="niti_hydropower_survey"/>
     </item>
     <item name="Generator/Turbine" icon="presets/empty.png" type="node,closedway">
       <key key="power" value="generator"/>
       <key key="generator:source" value="hydro"/>
       <combo key="hydro" text="Turbine type" values="water-storage, water-pumped-storage"/>	  
-	  	<key key="source" value="kll_hyropower"/>
+	  	<key key="source" value="niti_hydropower_survey"/>
     </item>
     <item name="Tailrace" icon="presets/empty.png" type="way">
       <key key="water" value="tailrace"/>
