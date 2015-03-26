@@ -153,7 +153,9 @@
     <item name="Control gate" icon="presets/empty.png" type="node,way">
       <key key="barrier" value="lift_gate"/>
 	  <text key="name:hydropower_project" text="Name of the project"/>
-      <text key="url:photo" text="Photo Url"/>
+      <!-- if source of tagging is photograph-->
+	  <key key="source" value="photograph"/>
+	  <text key="url:photo" text="Photo Url"/>
 	  <key key="source" value="niti_hydropower_survey"/>
     </item>
     <item name="Surge tank" icon="presets/empty.png" type="closedway">

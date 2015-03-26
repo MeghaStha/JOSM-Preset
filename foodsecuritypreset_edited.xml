@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="Megha" version="" shortdescription="" description="">
+<!--  Groups -->
+  <group name="खाद्य सुरक्षा" icon="presets/apexcollege.png">
+        
+  <item name="कृषि वन" icon="presets/empty.png" type="closedway">
+      <key key="landuse" value="forest"/>
+      <key key="type" value="agroforestry"/>
+	  <text key= "operator" text= "संचालक"/>
+	     <key key="source" value="BajrabarahiFieldVisit"/>
+	  </item> 
+	    <item name="फोहोर थुपार्ने क्षेत्र" icon="presets/empty.png" type="closedway">
+      <key key="landuse" value="landfill"/>
+	  <text key= "operator" text= "संचालक"/>
+	     <key key="source" value="BajrabarahiFieldVisit"/>
+	  </item> 
+	    <item name="सामुदायिक वन" icon="presets/empty.png" type="closedway">
+      <key key="landuse" value="forest"/>
+	  <text key= "operator" text= "संचालक"/>
+	     <key key="source" value="BajrabarahiFieldVisit"/>
+	  </item> 
+	    <item name="माछा खेत" icon="presets/empty.png" type="closedway">
+       <key key="landuse" value="farmyard"/>
+		<key key="livestock:fish" value="yes"/>	  
+	  <text key= "operator" text= "संचालक"/>
+	    <key key="source" value="BajrabarahiFieldVisit"/>
+	  </item> 
+
+	    <item name="कृषि निर्यात केन्द्र" icon="presets/empty.png" type="closedway">
+   <key key="source" value="BajrabarahiFieldVisit"/>	
+      <key key="amenity" value="agrocentre"/>
+	  <text key= "operator" text= "संचालक"/>
+	  	  <text key= "name" text= "नाम"/>
+		  <key key="building" value="yes"/>
+	  </item> 
+	  
+	    <item name="मिल" icon="presets/empty.png" type="closedway">
+      <text key="man_made" text="मिल प्रकार"/>
+	  <text key= "operator" text= "संचालक"/>
+	  	  <text key= "name" text= "नाम"/>
+		  <key key="building" value="yes"/>
+		    <key key="source" value="BajrabarahiFieldVisit"/>
+	  </item> 
+	  
+	  <item name = "फल खेत" icon= "" type = "closedway">
+	  <key key="landuse" value="orchard"/>
+	     <text key="crop" text="उत्पादन प्रकार"/>	   
+		 <text key= "operator" text="संचालक"/>
+		 <text key="addr:street" text = "ठेगाना"/>
+		 <text key= "area" text= "क्षेत्र"/>
+		 <text key="production_amount" text= "उत्पादन राशि"/>
+		 <combo key="plant" text="फल प्रकार" values= "shrub, herb, trees"/> 
+		 <text key="plant:number" text="फल नम्बर"/>
+		 <text key="name" text="नाम"/>
+		   <key key="source" value="BajrabarahiFieldVisit"/>
+	     </item> 
+
+	  
+	  <item name = "पशु नचर्ने चरागाह" icon= "" type = "closedway">
+	  <key key="landuse" value="meadow"/>
+	     <combo key="meadow" text="पशु नचर्ने चरागाह प्रकार" values="perpetual,agriculture,transitional"/>
+		 	   <key key="source" value="BajrabarahiFieldVisit"/>
+	     </item> 
+
+		  
+	  <item name = "अमिलो बारी " icon= "" type = "closedway">
+	  <key key="landuse" value="farmland"/>
+	    <text key="crop" text="बाली"/>
+		<text key= "name" text="नाम"/>
+			   <key key="source" value="BajrabarahiFieldVisit"/>
+	     </item> 
+		  
+	 <item name="प्राकृतिक सम्पत्ति" icon="presets/empty.png" type="closedway">
+	     <combo key="natural" text="प्राकृतिक सम्पत्ति" values="wood,barren, spring, floodarea, grassland, scrub"/>	
+ <key key="source" value="BajrabarahiFieldVisit"/>			 
+  </item>	 
+  
+  	 <item name="गाई गोरु पालन " icon="presets/empty.png" type="node,closedway">
+	 	       <key key="landuse" value="farmyard"/>	
+	       <key key="livestock:cow_ox" value="yes"/>	
+  <text key="number:cow_ox" text="नम्बर"/>		   
+   <key key="source" value="BajrabarahiFieldVisit"/>	
+  </item>	
+  
+    	 <item name="सुँगुर पालन" icon="presets/empty.png" type="node,closedway">
+		 	 	       <key key="landuse" value="farmyard"/>	
+	        <key key="livestock:sty" value="yes"/>	  
+			  <text key="number:pig" text="नम्बर"/>
+ <key key="source" value="BajrabarahiFieldVisit"/>				  
+  </item>	
+  
+    	 <item name="बाख्रा पालन" icon="presets/empty.png" type="node,closedway">
+		 	 	       <key key="landuse" value="farmyard"/>	
+	         <key key="livestock:goat" value="yes"/>
+   <text key="number:goat" text="नम्बर"/>	
+  <key key="source" value="BajrabarahiFieldVisit"/>	     
+  </item>	
+  
+    	 <item name="भेडा पालन" icon="presets/empty.png" type="node,closedway">
+		 	 	       <key key="landuse" value="farmyard"/>	
+	        <key key="livestock:sheep" value="yes"/>
+  <text key="number:sheep" text="नम्बर"/>		
+  <key key="source" value="BajrabarahiFieldVisit"/>	    
+  </item>	
+  
+    	 <item name="चिकन पालन" icon="presets/empty.png" type="node,closedway">
+		 	 	       <key key="landuse" value="farmyard"/>	
+	        <key key="livestock:poultry" value="yes"/>  
+			       <key key="poultry" value="chicken"/>
+				   <text key="number:poultry" text="नम्बर"/>	
+  <key key="source" value="BajrabarahiFieldVisit"/>	  				   
+  </item>	
+  
+  <item name = "कोल्ड स्टोर" icon = "presets/empty.png" type = "node,closedway">
+      <key key="building " value="barn"/>
+	    <key key="source" value="BajrabarahiFieldVisit"/>	  
+  </item>
+  
+  <item name = "कृषि पर्यटन क्षेत्र" icon = "presets/empty.png" type = "closedway">
+  <key key="landuse " value="farmyard"/>
+  <combo key= "agrotourism" text= "कृषि पर्यटन क्षेत्र" values= "yes, no"/>
+    <key key="source" value="BajrabarahiFieldVisit"/>	  
+  </item>
+  
+  <item name = "खाना गुणस्तर जाँच केन्द्र" icon = "presets/empty.png" type = "node,closedway">
+  <key key= "amenity" value= "food_qualitycheck"/>
+  <text key="name" text="नाम"/>
+		  <key key="building" value="yes"/>	
+		      <key key="source" value="BajrabarahiFieldVisit"/>
+  </item>
+  
+    <item name = "खाना संग्रह केन्द्र" icon = "presets/empty.png" type = "node,closedway">
+  <key key= "amenity" value= "food_collection"/>
+  <text key="name" text="नाम"/>
+		  <key key="building" value="yes"/>	
+		      <key key="source" value="BajrabarahiFieldVisit"/>	
+  </item>
+  
+    <item name = "सामुदायिक भण्डार" icon = "presets/empty.png" type = "node,closedway">
+  <key key= "amenity" value= "community_storehouse"/>
+  <text key="name" text="नाम"/>
+ 		  <key key="building" value="yes"/>	
+		     <key key="source" value="BajrabarahiFieldVisit"/>
+  </item>
+  
+    <item name = "बैंक" icon = "presets/empty.png" type = "node,closedway">
+  <key key= "amenity" value= "bank"/>
+  <text key="name" text="नाम"/>
+    <key key="source" value="BajrabarahiFieldVisit"/>	  
+  </item>
+  
+    <item name = "स्कूल" icon = "presets/empty.png" type = "node,closedway">
+  <key key= "amenity" value= "school"/>
+  <text key="name" text="नाम"/>
+    <key key="source" value="BajrabarahiFieldVisit"/>	  
+  </item>
+  
+    <item name = "अस्पताल/स्वास्थ्य केन्द्र" icon = "presets/empty.png" type = "node,closedway">
+  <key key= "amenity" value= "hospital"/>
+  <text key="name" text="नाम"/>
+    <key key="source" value="BajrabarahiFieldVisit"/>	  
+  </item>
+  
+    <item name = "पशु अस्पताल" icon = "presets/empty.png" type = "node,closedway">
+  <key key= "amenity" value= "veterinary"/>
+  <text key="name" text="नाम"/>
+    <key key="source" value="BajrabarahiFieldVisit"/>	  
+  </item>
+  
+  
+  
+  <item name= "बजार" icon= "presets/empty.png" type= "node,closedway">
+    <key key="amenity" value="marketplace"/>
+      <text key="risk" text="जोखिमका  सम्भावना "/>
+  <key key="source" value="BajrabarahiFieldVisit"/>	  	  
+  </item>
+
+  		 
+  	  <item name = "खेत" icon= "" type = "closedway">
+	  <key key="landuse" value="farmland"/>
+	    <text key="crop" text="बालीहरु"/>
+		<text key="crop1:name" text="बाली1को  नाम"/>
+		<text key="crop1:percentage" text="बाली1ले ओगट्ने चेत्रफलको प्रतिशत"/>
+		<text key="crop1:time" text="बाली1 लागने महिना"/>
+		<text key="crop2:name" text="बाली2को  नाम"/>
+		<text key="crop2:percentage" text="बाली2 ले  ओगट्ने चेत्रफलको प्रतिशत"/>
+		<text key="crop2:time" text="बाली2 लागने महिना"/>		
+		<text key="crop3:name" text="बाली3को  नाम"/>
+		<text key="crop3:percentage" text="बाली3 ले  ओगट्ने चेत्रफलको प्रतिशत"/>
+		<text key="crop3:time" text="बाली3 लागने महिना"/>
+		<text key="crop4:name" text="बाली4को  नाम"/>
+		<text key="crop4:percentage" text="बाली4 ले  ओगट्ने चेत्रफलको प्रतिशत"/>
+		<text key="crop4:time" text="बाली4 लागने महिना"/>
+		<text key="crop5:name" text="बाली5को  नाम"/>
+		<text key="crop5:percentage" text="बाली5 ले  ओगट्ने चेत्रफलको प्रतिशत"/>
+		<text key="crop5:time" text="बाली5 लागने महिना"/>
+		<key key="source" value="BajrabarahiFieldVisit"/>
+          </item> 
+		  
+  	  <item name = "बारी " icon= "" type = "closedway">
+	  <key key="landuse" value="farmland"/>
+	    <text key="crop" text="बालीहरु"/>
+		<text key="crop1:name" text="बाली1को  नाम"/>
+		<text key="crop1:percentage" text="बाली1 percetage based on area"/>
+		<text key="crop1:time" text="बाली1 लागने महिना"/>
+		<text key="crop2:name" text="बाली2को  नाम"/>
+		<text key="crop2:percentage" text="बाली2 ले  ओगट्ने चेत्रफलको प्रतिशत"/>
+		<text key="crop2:time" text="बाली2 लागने महिना"/>		
+		<text key="crop3:name" text="बाली3को  नाम"/>
+		<text key="crop3:percentage" text="बाली3 ले  ओगट्ने चेत्रफलको प्रतिशत"/>
+		<text key="crop3:time" text="बाली3 लागने महिना"/>
+		<text key="crop4:name" text="बाली4को  नाम"/>
+		<text key="crop4:percentage" text="बाली4 ले  ओगट्ने चेत्रफलको प्रतिशत"/>
+		<text key="crop4:time" text="बाली4 लागने महिना"/>
+		<text key="crop5:name" text="बाली5को  नाम"/>
+		<text key="crop5:percentage" text="बाली5 ले  ओगट्ने चेत्रफलको प्रतिशत"/>
+		<text key="crop5:time" text="बाली5 लागने महिना"/>
+		<text key="crop6:name" text="बाली6को  नाम"/>
+		<text key="crop6:percentage" text="बाली6 ले  ओगट्ने चेत्रफलको प्रतिशत"/>
+		<text key="crop6:time" text="बाली6 लागने महिना"/>
+		<text key="crop7:name" text="बाली7को  नाम"/>
+		<text key="crop7:percentage" text="बाली7 ले  ओगट्ने चेत्रफलको प्रतिशत"/>
+		<text key="crop7:time" text="बाली7 लागने महिना"/>
+		<key key="source" value="BajrabarahiFieldVisit"/>
+          </item> 
+		  
+ <item name= "खेतीको  प्रविधि" icon= "presets/empty.png" type= "closedway">
+	    <combo key="farming_technology" text="खेतीको  प्रविधि"  values="traditional,conventional,modern,organic"/>
+		  <key key="source" value="BajrabarahiFieldVisit"/>	  
+</item>
+
+ <item name= "खेती प्रणाली" icon= "presets/empty.png" type= "closedway">		
+    <combo key="farming_system" text="खेती प्रणाली" values="tar,khet,bari,pakho"/>
+	  <key key="source" value="BajrabarahiFieldVisit"/>	  
+	</item>
+	
+	 <item name= "खाद्य उत्पादन कारखाना" icon= "presets/empty.png" type= "node,closedway">
+	   <key key="landuse" value="industrial"/>
+     <key key="factory" value="food"/>
+	    <text key="food" text="खाद्य"/>
+		   <text key="food:pricing" text="खाना मूल्य "/>
+		       <text key="produce" text="उत्पादन प्रकार"/>
+			     <key key="source" value="BajrabarahiFieldVisit"/>	  
+</item> 
+
+	 <item name= "कारखाना" icon= "presets/empty.png" type= "node,closedway">
+	   <key key="landuse" value="industrial"/>
+		       <text key="produce" text="उत्पादन प्रकार"/>
+			     <key key="source" value="BajrabarahiFieldVisit"/>	  
+</item> 
+
+<item name= "किराना पसल" icon= "presets/empty.png" type="node,closedway">
+    <text key="shop" text="Shop"/>
+	<text key="name" text="नाम"/>
+	  <key key="source" value="BajrabarahiFieldVisit"/>	  
+</item>
+
+<item name= "तरकारी पसल" icon= "presets/empty.png" type="node,closedway">
+    <key key="shop" value="greengrocer"/>
+	<text key="name" text="नाम "/>
+	  <key key="source" value="BajrabarahiFieldVisit"/>	  
+	</item>
+	
+<item name= "शौचालय" icon= "presets/empty.png" type="node,closedway">	
+    <key key="amenity" value="toilets"/>
+	  <key key="source" value="BajrabarahiFieldVisit"/>	  
+</item>
+
+<item name= "Embankment" icon= "presets/empty.png" type="node,way">	
+    <key key="man_made" value="embankment"/>
+	  <key key="source" value="BajrabarahiFieldVisit"/>	  
+</item>
+
+ <item name= "कार्यालय" icon= "presets/empty.png" type="node,closedway">		
+    <combo key="office" text= "कार्यालय" values="cooperative, government, administrative"/>
+	<text key="name" text="नाम "/>
+	  <key key="source" value="BajrabarahiFieldVisit"/>	  
+</item>
+
+ 
+  <item name= "कसाई पसल" icon= "presets/empty.png" type="node,closedway">
+    <combo key="butcher" text="कसाई पसल" values="pork,goat,chicken"/>
+    <text key="opening_hours" text="खुला घण्टा(कति देखि कति सम्म )"/>
+    <key key="shop" value="butcher"/>
+	<text key="name" text="नाम "/>
+	  <key key="source" value="BajrabarahiFieldVisit"/>	  
+</item>
+
+ <item name= "धारा" icon= "presets/empty.png" type="way">
+    <combo key="intermittent" text = "आंतरायिक" values="yes, no"/>
+    <key key="waterway" value="stream"/>
+	  <key key="source" value="BajrabarahiFieldVisit"/>	  
+</item>
+
+<item name= "सिँचाइ नहर" icon= "presets/empty.png" type = "way">
+    <text key="irrigation:area" text="सिँचाइ क्षेत्र"/>
+    <key key="irrigation" value="yes"/>
+    <key key="waterway" value="canal"/>
+	  <key key="source" value="BajrabarahiFieldVisit"/>	  
+</item>
+
+<item name= "नदी" icon= "presets/empty.png" type = "way">	
+    <key key="waterway" value="river"/>
+	  <key key="source" value="BajrabarahiFieldVisit"/>	  
+</item>
+
+<item name= "पम्प" icon= "presets/empty.png" type = "node,closedway">
+    <combo key="pump" text="पम्प" values="powered,manual,no"/>
+    <key key="man_made" value="water_well"/>
+    <key key="amenity" value="drinking_water"/>
+	  <key key="source" value="BajrabarahiFieldVisit"/>	  
+</item>
+
+<item name= "डेरी" icon= "presets/empty.png" type = "node,closedway">
+    <text key="name" text="नाम "/>
+    <key key="shop" value="dairy"/>
+	  <key key="source" value="BajrabarahiFieldVisit"/>	  
+</item>
+
+<item name= "मन्दिर" icon= "presets/empty.png" type = "node,closedway">
+    <key key="place of worship" value="yes "/>
+    <text key="religion" text="धर्म"/>
+	<key key="source" value="BajrabarahiFieldVisit"/>
+</item>
+</group>  
+
+ 
+</presets>
