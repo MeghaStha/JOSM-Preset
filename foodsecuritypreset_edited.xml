@@ -29,6 +29,10 @@
 	  <text key="contact:phone" text= "सम्पर्क फोन"/>  
 	    <key key="source" value="BajrabarahiFieldVisit"/>
 	  </item> 
+	  <item name= "पोखरी" icon= "presets/empty.png" type = "node,closedway">
+    <key key="natural" value="water"/>
+  	<key key="source" value="BajrabarahiFieldVisit"/>
+</item>
 
 	    <item name="कृषि निर्यात केन्द्र" icon="presets/empty.png" type="closedway">
    <key key="source" value="BajrabarahiFieldVisit"/>	
