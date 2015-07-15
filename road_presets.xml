@@ -1,0 +1,23 @@
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="Megha" version="" shortdescription="" description="">
+ <group name = "Transportation Data" type ="way">
+    <item name="Road" icon="presets/empty.png" type="way">
+    <multiselect key="surface" text="pavement" values="earth;metal;gravel"/>
+    <text key="maxspeed" text="maxspeed"/>
+    <multiselect key="access_status" text="access_status" values="all_weather;fair_weather"/>
+    <text key="width:ROW" text="width:ROW"/>
+    <text key="width:carriage" text="width:carriage"/>
+    <multiselect key="highway" text="Highway" values="primary;secondary;tertiary;footway;path;trunk;trunk;motorway;service;living_street;pedestrian;steps;steps"/>
+    <text key="name" text="Name"/>
+  </item>
+      <item name="causeways" icon="presets/empty.png" type="way">
+    <key key="causeway" value="yes"/>
+  </item>
+  <item name="bridge" icon="presets/empty.png" type="way">
+    <key key="bridge" value="yes"/>
+  </item>
+  <item name="culvert" icon="presets/empty.png" type="way">
+    <key key="layer" value="-1"/>
+    <key key="tunnel" value="culvert"/>
+  </item>
+    </group>
+</presets>
