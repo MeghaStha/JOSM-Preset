@@ -1,23 +1,43 @@
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="Megha" version="" shortdescription="" description="">
- <group name = "Transportation Data" type ="way">
+ <group name = "Transportation Data" type ="way,node">
     <item name="Road" icon="presets/empty.png" type="way">
-    <multiselect key="surface" text="pavement" values="earth;metal;gravel"/>
-    <text key="maxspeed" text="maxspeed"/>
-    <multiselect key="access_status" text="access_status" values="all_weather;fair_weather"/>
+        <multiselect key="highway" text="Highway type" values="trunk;primary;secondary;tertiary;footway;path;service;pedestrian;track;construction;proposed"/>
+    <multiselect key="surface" text="pavement" values="earth;metal;gravel;DBST;ottaseal"/>
+   <multiselect key="access_status" text="access_status" values="all_weather;fair_weather"/>
+    <text key="width" text="pavement width"/>
     <text key="width:ROW" text="width:ROW"/>
     <text key="width:carriage" text="width:carriage"/>
-    <multiselect key="highway" text="Highway" values="primary;secondary;tertiary;footway;path;trunk;trunk;motorway;service;living_street;pedestrian;steps;steps"/>
+    <text key="width:shoulder" text="shoulder width"/>
+    <text key="resurfaced:date" text="resurfaced date"/>
+    <text key="maxspeed" text="maxspeed"/>
+    <text text="Road Code"  key="ref"/>
+    <text text="Road Class" key="class"/>
+    <text text="Survey Year" key="survey:year"/>
+    <text text="Survey Date" key="survey:date"/>
+    <text text="Surveyor Name" key="surveyor:name"/>
+    <text text="road condition" key="condition"/>
+    <text text="Start Chainage" key="start_chainage"/>
     <text key="name" text="Name"/>
+    <text key="lanes" text="lanes"/>   
   </item>
-      <item name="causeways" icon="presets/empty.png" type="way">
+    <item name="causeways" icon="presets/empty.png" type="way">
     <key key="causeway" value="yes"/>
+      <text key="length" text ="length"/>
+      <text key="span" text="span length"/>
+
   </item>
   <item name="bridge" icon="presets/empty.png" type="way">
     <key key="bridge" value="yes"/>
+      <text key="length" text ="length"/>
+      <text key="span" text="span length"/>
+    <multiselect key="bridge:type" text="bridge type" values="rcc;steel;arch;suspension"/>
   </item>
   <item name="culvert" icon="presets/empty.png" type="way">
     <key key="layer" value="-1"/>
     <key key="tunnel" value="culvert"/>
+      <text key="length" text ="length"/>
+      <text key="span" text="span length"/>
+    <multiselect key="culvert:type" text="culvert type" values="pipe;slab"/>
   </item>
     </group>
 </presets>
