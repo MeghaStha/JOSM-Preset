@@ -1,18 +1,18 @@
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="Megha" version="" shortdescription="" description="">
  <group name = "Transportation Data" type ="way,node">
     <item name="Road" icon="presets/empty.png" type="way">
-        <multiselect key="highway" text="Highway type" values="trunk;primary;secondary;tertiary;footway;path;service;pedestrian;track;construction;proposed"/>
-      <multiselect key="ref" text="Road Code" values="DCRN;VCRN"/>
+        <multiselect key="highway" text="Highway type" values="trunk;primary;secondary;residential;footway;path;service;pedestrian;track;construction;proposed"/>
+      <multiselect key="class" text="Road Class" values="DCRN;VCRN"/>
    <multiselect key="access_status" text="Access Status" values="all_weather;fair_weather"/>
-          <multiselect key="surface" text="Pavement Type" values="premix;carpet;dbst;earth;metal;gravel;DBST;ottaseal"/>
+          <multiselect key="surface" text="Pavement Type" values="premix carpet;earth;gravel;DBST;ottaseal;asphalt concrete;concrete"/>
     <text key="width" text="Pavement Width"/>
     <text key="width:ROW" text="ROW Width"/>
-    <text key="width:carriage" text="Carriage Way Width"/>
-    <text key="width:shoulder" text="Shoulder Width"/>
-   <text text="Road Condition" key="condition"/>
-         <text text="Road Class" key="class"/>
+   
+    <text key="width:shoulder" text="One side Width"/>
+   <multiselect text="Road Condition" key="condition" values="good;fair;poor"/>
+         <text text="Road Code" key="ref"/>
     <text text="Start Chainage" key="start_chainage"/>
-        <text key="lanes" text="Lanes"/> 
+        <text key="lanes" text="No. of Lanes"/> 
          <text key="maxspeed" text="Maxspeed"/>
     <text key="name" text="Name"/>
 <text key="resurfaced:date" text="Resurfaced Date"/>
@@ -22,7 +22,7 @@
    <key key="source" value="ILO transportation mapping"/>
         <key key="project:url" value ="https://github.com/MeghaStha/ILO-training"/>
      </item>
-    <item name="Causeways" icon="presets/empty.png" type="way">
+    <item name="Causeways" icon="presets/empty.png" type="way,node">
     <key key="causeway" value="yes"/>
       <text key="length" text ="Length"/>
       <text key="span" text="Span Length"/>
@@ -30,7 +30,7 @@
    <key key="source" value="ILO transportation mapping"/>
         <key key="project:url" value ="https://github.com/MeghaStha/ILO-training"/>
      </item>   
-    <item name="Bridge" icon="presets/empty.png" type="way">
+    <item name="Bridge" icon="presets/empty.png" type="way,node">
     <key key="bridge" value="yes"/>
       <text key="length" text ="Length"/>
       <text key="span" text="Span Length"/>
@@ -38,7 +38,7 @@
     <key key="source" value="ILO transportation mapping"/>
         <key key="project:url" value ="https://github.com/MeghaStha/ILO-training"/>
      </item>
-  <item name="Culvert" icon="presets/empty.png" type="way">
+  <item name="Culvert" icon="presets/empty.png" type="way,node">
     <key key="layer" value="-1"/>
     <key key="tunnel" value="culvert"/>
       <text key="length" text ="Length"/>
