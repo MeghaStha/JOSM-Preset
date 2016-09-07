@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<presets description="" shortdescription="" version="" author="Megha" xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
+
+<!-- Groups -->
+
+
+
+-<group icon="presets/apexcollege.png" name="कर्णाली नक्शाकरण">
+
+
+-<item icon="presets/empty.png" name="हुलाको सडक " type="node, closedway">
+
+<key value="service" key="highway"/>
+
+<text value="Post office" key="operator"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="समुदाय भित्रको सडक " type="node, closedway">
+
+<key value="residential" key="highway"/>
+
+<text key="operator" text="संचालक"/>
+
+<text key="name" text="नाम"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="नदि" type="node, closedway">
+
+<key value="river" key="waterway"/>
+
+<text key="name" text="नाम"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="झर्ना " type="node, closedway">
+
+<key value="waterfall" key="waterway"/>
+
+<text key="name" text="नाम"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="ढुवान घर " type="node,closedway">
+
+<key value="warehouse" key="building"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="मध्यम जोखिम घर ्र" type="node, closedway">
+
+<key value="Karnali Mapping" key="source"/>
+
+<key value="yes" key="building"/>
+
+<key value="medium" key="disaster_risk:flood"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="न्युन जोखिम घर " type="node, closedway">
+
+<key value="Karnali Mapping" key="source"/>
+
+<key value="yes" key="building"/>
+
+<key value="low" key="disaster_risk:flood"/>
+
+</item>
+
+
+-<item icon="" name="हुयम पाईप" type="node, closedway">
+
+<key value="culvert" key="tunnel"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="" name="पुल " type="node, closedway">
+
+<combo key="bridge" text="पुल" values="yes, aqueduct, viaduct, cantilever, movable, covered "/>
+
+<text key="layer" text="लेयर "/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="" name="चर्पी " type="node, closedway">
+
+<key value="toilets" key="amenity"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="धारा " type="closedway">
+
+<key value="water_tap" key="man_made"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="चौतारी " type="node,closedway">
+
+<key value="common" key="leisure"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="खेति योग्य जमिन" type="node,closedway">
+
+<key value="farmland" key="landuse"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="सिँचाइ नहर" type="way">
+
+<text key="irrigation:area" text="सिँचाइ क्षेत्र"/>
+
+<key value="yes" key="irrigation"/>
+
+<key value="canal" key="waterway"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="डयाम" type="node,way">
+
+<key value="embankment" key="man_made"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="सामुदायिक वन" type="closedway">
+
+<key value="forest" key="landuse"/>
+
+<text key="operator" text="संचालक"/>
+
+<text key="contact:phone" text="सम्पर्क फोन"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="बैंक" type="node,closedway">
+
+<key value="bank" key="amenity"/>
+
+<text key="name" text="नाम"/>
+
+<text key="contact:phone" text="सम्पर्क फोन"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="स्कूल" type="node,closedway">
+
+<key value="school" key="amenity"/>
+
+<text key="name" text="नाम"/>
+
+<text key="contact:phone" text="सम्पर्क फोन"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="अस्पताल/स्वास्थ्य केन्द्र" type="node,closedway">
+
+<key value="hospital" key="amenity"/>
+
+<text key="name" text="नाम"/>
+
+<text key="contact:phone" text="सम्पर्क फोन"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="पशु अस्पताल" type="node,closedway">
+
+<key value="veterinary" key="amenity"/>
+
+<text key="name" text="नाम"/>
+
+<text key="contact:phone" text="सम्पर्क फोन"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="अपांग भएको घर" type="node,closedway">
+
+<key value="yes" key="building"/>
+
+<key value="handicapped" key="operator"/>
+
+<key value="Agriculture and Food Security Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="CDMC को घर" type="node,closedway">
+
+<key value="yes" key="building"/>
+
+<key value="CDMC" key="operator"/>
+
+<key value="Agriculture and Food Security Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="बजार" type="node,closedway">
+
+<key value="marketplace" key="amenity"/>
+
+<text key="risk" text="जोखिमका सम्भावना "/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="खाद्य उत्पादन कारखाना" type="node,closedway">
+
+<key value="industrial" key="landuse"/>
+
+<key value="food" key="factory"/>
+
+<text key="food" text="खाद्य"/>
+
+<text key="food:pricing" text="खाना मूल्य "/>
+
+<text key="produce" text="उत्पादन प्रकार"/>
+
+<text key="contact:phone" text="सम्पर्क फोन"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="कारखाना" type="node,closedway">
+
+<key value="industrial" key="landuse"/>
+
+<text key="produce" text="उत्पादन प्रकार"/>
+
+<text key="contact:phone" text="सम्पर्क फोन"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="किराना पसल" type="node,closedway">
+
+<text key="shop" text="Shop"/>
+
+<text key="name" text="नाम"/>
+
+<text key="contact:phone" text="सम्पर्क फोन"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="तरकारी पसल" type="node,closedway">
+
+<key value="greengrocer" key="shop"/>
+
+<text key="name" text="नाम "/>
+
+<text key="contact:phone" text="सम्पर्क फोन"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="कार्यालय" type="node,closedway">
+
+<combo key="office" text="कार्यालय" values="cooperative, government, administrative"/>
+
+<text key="name" text="नाम "/>
+
+<text key="contact:phone" text="सम्पर्क फोन"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="मासु पसल" type="node,closedway">
+
+<combo key="butcher" text="कसाई पसल" values="pork,goat,chicken"/>
+
+<text key="opening_hours" text="खुला घण्टा(कति देखि कति सम्म )"/>
+
+<key value="butcher" key="shop"/>
+
+<text key="name" text="नाम "/>
+
+<text key="contact:phone" text="सम्पर्क फोन"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="उच्च धारा " type="node,closedway">
+
+<combo key="pump" text="पम्प" values="powered,manual,no"/>
+
+<key value="water_well" key="man_made"/>
+
+<key value="drinking_water" key="amenity"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="डेरी" type="node,closedway">
+
+<text key="name" text="नाम "/>
+
+<key value="dairy" key="shop"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="मन्दिर" type="node,closedway">
+
+<key value="yes " key="place of worship"/>
+
+<text key="religion" text="धर्म"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="राजमार्ग" type="node,closedway">
+
+<key value="primary" key="highway"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="कचि बाटो" type="node,closedway">
+
+<key value="track" key="highway"/>
+
+<key value="grade3" key="tracktype"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="गोरेटो बाटो" type="node,closedway">
+
+<key value="path" key="highway"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="नगरपालिका/गा. वि. स सिमाना " type="node,closedway">
+
+<key value="administrative" key="boundary"/>
+
+<key value="8" key="admin_level"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="वार्ड सिमाना " type="node,closedway">
+
+<key value="administrative" key="boundary"/>
+
+<key value="9" key="admin_level"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="टोल सिमाना " type="node,closedway">
+
+<key value="administrative" key="boundary"/>
+
+<key value="10" key="admin_level"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+
+-<item icon="presets/empty.png" name="सुरक्षित क्षेत्र" type="node,closedway">
+
+<key value="common" key="leisure"/>
+
+<key value="safe" key="status"/>
+
+<key value="Karnali Mapping" key="source"/>
+
+</item>
+
+</group>
+
+</presets>
